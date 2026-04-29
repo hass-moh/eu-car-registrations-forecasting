@@ -14,6 +14,10 @@ The goal is to test whether combining historical registration patterns with macr
 - Geographic focus: EU aggregate, built from country-level ACEA registration data
 - Final model family: Ridge regression pipeline with scaled features, benchmarked against baseline, Random Forest, and XGBoost variants
 
+## Forecasting framework
+
+![Forecasting Framework](outputs/forecasting_framework.png)
+
 ## Data sources
 
 The project combines several source families:
