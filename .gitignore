@@ -1,0 +1,56 @@
+# =========================================================
+# DATA (Medallion Architecture)
+# =========================================================
+
+data/bronze/*
+data/silver/*
+data/gold/*
+
+# Keep folder structure
+!data/bronze/.gitkeep
+!data/silver/.gitkeep
+!data/gold/.gitkeep
+
+# =========================================================
+# LARGE FILES / DATA FORMATS
+# =========================================================
+
+*.csv
+*.xlsx
+*.xls
+*.parquet
+*.feather
+*.pdf
+
+# (Optional: allow final outputs if you want)
+!outputs/final_forecast.csv
+!outputs/forecast_plot.png
+
+# =========================================================
+# MODELS
+# =========================================================
+
+models/*
+*.pkl
+*.joblib
+
+!models/.gitkeep
+
+# =========================================================
+# PYTHON
+# =========================================================
+
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+.env
+.venv/
+env/
+
+# =========================================================
+# SYSTEM FILES
+# =========================================================
+
+.DS_Store
+Thumbs.db
